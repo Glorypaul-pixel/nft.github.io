@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+body{
+    background-color: rgb(16, 25, 43);
+    font-family: Outfit, sans-serif;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.flexbox-container {
+    background-color: rgb(19, 46, 71);
+    color: white;
+    width: 250px;
+    height: 500px;
+    border-radius: 10px;
+    padding: 20px;
+    
+}
+.flexbox1 img {
+    width: 250px;
+    height: 280px;
+    border-radius: 10px;
+    align-items: center;
+}
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+    height: 30px;
+    padding-bottom: 0px;
+    border: 1px solid rgb(88, 115, 155);
+    height: 50px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+
+}
+h2 {
+    font-weight: 550;
+    font-size: 20px;
+}
+h3{
+    color: rgb(128, 157, 221);
+    font-weight: 200;
+    font-size: 15px;
+}
+.eth {
+    color: aqua;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.days {
+    color:rgb(128, 157, 221);
+    font-size: 14px;
+}
+
+p{
+    /* border: 2px solid red; */
+    align-items: center;
+}
+.author {
+    display: flex;
+    align-items: center;
+    color: rgb(130, 167, 215);
+    font-size: 15px;
+
+}
+.author img {
+    border: 2px solid white;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+span{
+    color: white;
+}
